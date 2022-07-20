@@ -1,0 +1,17 @@
+.body-content{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    place-items: center;
+    padding: 40px;
+    background-color: #183153;
+    color: #f8f9fa;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-1 p{
+    padding: 50px 0;
+}

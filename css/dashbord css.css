@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.sidebar{
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+    background-color: cadetblue;
+}
+.sidebar .content a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: solid 1px rgb(197, 185, 185);
+}
+ .active1{
+    background-color: rgb(226, 30, 144);
+}
+.bodyContent{
+    max-width: 60%;
+    padding: 40px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+    margin-bottom: 60px;
+}
+.bodyContent h1{
+    padding: 20px;
+}
+footer{
+    margin-left: 200px;
+}
+

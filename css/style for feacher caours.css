@@ -1,0 +1,76 @@
+.main-content2 {
+  padding: 50px;
+  margin-top: 100px;
+  /* color: antiquewhite; */
+  /* background-color: rgb(63, 54, 54); */
+}
+hr {
+  width: 70px;
+  height: 1.5px;
+  background-color: #c6f850;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.cards2 {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #c6f850;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  padding: 15px;
+  font-weight: 600;
+  font-size: larger;
+  box-shadow: 6px 6px 6px -6px #424242;
+  height: 200px;
+}
+.one {
+  background-image: url("../image/courses/java.jpg");
+}
+.two {
+  background-image: url("./image/courses/c++.png");
+  }
+.three {
+  background-image: url("./image/courses/machin\ learning.png");
+  }
+.four {
+  background-image: url("./image/courses/pyton.jpg");
+  }
+.five {
+  background-image: url("./image/courses/html.png");
+  }
+.six {
+  background-image: url("./image/courses/css.jpg");
+  }
+.seven {
+  background-image: url("./image/courses/java.jpg");
+  }
+.eight {
+  background-image: url("./image/courses/java.jpg");
+  }
+.nine {
+  background-image: url("./image/courses/java.jpg");
+  }
+.ten {
+  background-image: url("./image/courses/java.jpg");
+  }
+.eleven {
+}
+.twelve {
+}
+.card:hover {
+  color: #fff;
+  font-size: x-large;
+  background-blend-mode: multiply;
+}

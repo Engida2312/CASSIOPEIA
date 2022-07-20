@@ -1,0 +1,108 @@
+
+#myTopnav{
+  position: relative;
+}
+
+.main-header{
+   display: grid;
+   /* grid-template-rows: repeat(1, 1fr); */
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   place-content: center;
+   height: 50%;
+   grid-gap: 20px;
+   padding: 30px 60px 30px 60px;
+   background-color: #111c31;
+   color: #fff;
+}
+
+/* .header-2{
+   display: flex;
+} */
+
+.intro-video{
+  /* margin: auto; */
+  max-width: 370px;
+  min-width: 250px;
+  min-height: 200px;
+  max-height: 270px;
+  border-radius: 7px;
+  background-color: rgb(11, 17, 19);
+  border: solid 2px #ddd;
+  background-image: url(../image/courses/java.jpg);
+  background-size: cover;
+  opacity: 0.7;
+  display: flex;
+}
+.header-2 i{
+  margin: auto;
+  font-size: 60px;
+}
+.header-2 i:hover{
+  font-size: 70px;
+  color: #96afdb;
+}
+.main-header h1{
+    padding: 20px 0;
+}
+.main-header button{
+  margin: 30px;
+  width: 150px;
+  height: 40px;
+  background: #f9a458;
+
+}
+.rating{
+   color: rgb(255, 166, 0);
+   padding: 20px 0 20px 0;
+}
+.rating span{
+    color: #fff;
+}
+.header-2 {
+    padding: 40px;
+}
+/* @media(max-width: 768px){
+    .main-header{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
+.sticky-navbar{
+  overflow: hidden;
+  background-color: #ffffff;
+  color: black;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 20px;
+  font-weight: 600;
+}
+.sticky-navbar a{
+  margin-right: 30px;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-bottom: solid 2px #121d33cc;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.sticky-navbar a:hover {
+    background-color: #d6edf6;
+  color: #0082c3;
+}
+.tab-content{
+  padding: 0 110px 0 110px;
+}
+.review{
+  display: flex;
+}
+#content3 p{
+  max-width: 60%;
+}
+.review img{
+  border-radius: 50%;
+}
